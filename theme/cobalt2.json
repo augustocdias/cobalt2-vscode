@@ -387,6 +387,21 @@
       "settings": {
         "foreground": "#9effff"
       }
+    },
+    {
+      "scope": "source.json support",
+      "settings": {
+        "foreground": "#ffc600"
+      }
+    },
+    {
+      "scope": [
+        "source.json string",
+        "source.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#e1efff"
+      }
     }
   ]
 }
