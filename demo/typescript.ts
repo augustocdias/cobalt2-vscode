@@ -4,6 +4,16 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
+class Test {
+  constructor (public a = 10) {
+
+  }
+
+  public myFunc(params: Number): String {
+    return "str";
+  }
+}
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -14,4 +24,4 @@ import { AppComponent } from './app.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule, Test { }
